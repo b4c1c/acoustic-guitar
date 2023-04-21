@@ -4,7 +4,7 @@ export default [
         title: "Martin",
         hashTag: "martin",
         figcaption: "C.F. Martin & Company logo",
-        coverImg: "/public/Martin_guitar_logo.png",
+        coverImg: "Martin_guitar_logo.png",
         description: "C.F. Martin & Company (often referred to as Martin) is an American guitar manufacturer established in 1833, by Christian Frederick Martin. It is highly respected for its acoustic guitars and is a leading manufacturer of flat top guitars. The company has also made mandolins and tiples, as well as several models of electric guitars and electric basses, although none of these other instruments are still in production.",
         webLink: "https://en.wikipedia.org/wiki/C._F._Martin_%26_Company",
         price: 1200,
