@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+*{
+  margin: 0 auto;
+ 
+}
+
+body{
+  font-family: 'Poppins', sans-serif, serif;
+  max-width: 1000px;
+  background-color: rgb(229, 226, 231);
+}
+
+
+/*LINKS*/
+
+ a:link {
+  color: black;
+}
+
+
+a:visited {
+  color: black;
+}
+
+
+a:hover {
+  color: black;
+}
+
+
+a:active {
+  color: black;
+} 
+
+
+/*HEADER*/
+
+header{
+  margin: 1rem;
+  display: flex;
+  align-content: center;
+  align-items: baseline;
+  font-size: 3rem;
+  font-family: 'Sedgwick Ave Display', sans-serif, serif , cursive;
+  padding: 0;
+  text-align: center;
+}
+
+.icon {
+  padding: 5px;
+  margin: 5px;
+  animation: spin 25s linear infinite; 
+}
+
+@keyframes spin { 
+  0% { transform: rotate(0deg); } 
+ 100% { transform: rotate(360deg); } 
+}
+
+/*NAV*/
+
+nav{
+  max-width: 400px;
+  margin-bottom: 1rem;
+  padding: 2px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  border-bottom: solid 1px #333; 
+  padding: 0;
+}
+
+
+nav a{
+  text-decoration: none;
+}
+
+
+/*INTRO*/
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #333;
+
+}
+
+.intro-guitar{
+  width: 50%;
+  border: 1px solid #333;
+  border-radius: 2rem;
+}
+
+.intro section{
+  margin-top: 10px;
+}
+
+/*CONTENT*/
+
+main{  
+  margin: 10px;
+}
+
+article{
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #333;
+}
+
+.title{
+  text-align: left;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 0.7rem;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  text-align: center;
+}
+
+figcaption{
+  color: #989898;
+}
+
+.logo{
+  max-width: 55%;
+}
+
+
+.price{
+  color: red;
+}
+
+.rating{
+  color: #989898;
+}
+
+/*FOOTER*/
+
+footer{
+  text-align: center;
+  padding: 0.7rem;
+}
+ footer a{
+  text-decoration: none;
+ }
